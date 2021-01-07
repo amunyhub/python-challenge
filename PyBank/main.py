@@ -67,10 +67,10 @@ Greatest Increase in Profits:{greatestincrease_date} (${(greatestincrease)})
 Greatest Decrease in Profits:{greatestdecrease_date} (${(greatestdecrease)})
 """
 #write all prints to output text file in  analysis folder
-output_path = os.path.join("Analysis","Financial_Analysis_Output.txt")
+output_path = os.path.join("..","Pybank","Analysis","Financial_Analysis_Output.txt")
 
 print(Financial_Analysis)
 
-with open('Financial_Analysis_Output.txt', 'w') as outputFile:
+with open(output_path, 'w') as outputFile:
     outputFile.write(Financial_Analysis)
 
