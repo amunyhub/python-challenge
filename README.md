@@ -1,7 +1,7 @@
 # pythonhomework
 submission for python hw
 
-skills attained:
+skills obtained:
 opening CSV files
 Looping through data to get total rows or total values of values in a row
 Looping through data for unique numbers and pulling them out
